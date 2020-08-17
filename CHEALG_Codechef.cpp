@@ -7,14 +7,14 @@ int main()
     cin >> t;
     while(t--)
     {
-        string str, final_str="";
+        string str, final_str = "";
         cin >> str;
 
         for(int i=0; i<str.length(); i++)
         {
             char c = str[i];
             int cnt = 1;
-            while(c==str[i+1])
+            while(c == str[i+1])
             {
                 cnt++;
                 i++;

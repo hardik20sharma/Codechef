@@ -20,7 +20,7 @@ int main()
                 store.push_back(i);
         }
 
-        bool ans = true;
+        bool ans = true; 
         for(int i=1; i<store.size(); i++)
             if(store[i] - store[i-1] < 6)
                 ans = false;

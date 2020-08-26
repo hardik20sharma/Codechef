@@ -18,5 +18,5 @@ bool func(vector<int> a)
 int main()
 {
     vector<int> a{4, 2, -3, 1, 6};
-    func(a) ? cout << "Yes" : cout << "No";
+    func(a) ? cout << "Yes" : cout << "No"; 
 }

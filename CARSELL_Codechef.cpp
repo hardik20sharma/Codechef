@@ -1,20 +1,19 @@
-#include<iostream>
-#include<algorithm>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main()
-{
+{   
     int t, n;
     cin >> t;
     while(t--)
     {
         cin >> n;
-        int a[n];
+        vector<int> a(n);
         unsigned long long int sum = 0;
 
         for(int i=0; i<n; i++)
             cin >> a[i];
-        
+
         sort(a, a+n);
 
         for(int i=0; i<n; i++)

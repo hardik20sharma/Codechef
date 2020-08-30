@@ -12,6 +12,7 @@ bool func(string s1, string s2)
 
 int main()
 {
+    ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
     int t;
     cin >> t;
     while(t--)

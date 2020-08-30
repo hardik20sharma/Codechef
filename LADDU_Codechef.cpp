@@ -1,8 +1,9 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main()
 {
+    ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
     int t;
     cin >> t;
     while(t--)
@@ -16,8 +17,7 @@ int main()
             cin >> activity;
             if(activity == "CONTEST_WON")
             {
-                int temp;
-                cin >> temp;
+                int temp; cin >> temp;
                 (temp < 20) ? laddu += 320 - temp : laddu += 300;
             }
 
@@ -26,8 +26,7 @@ int main()
             
             else if(activity == "BUG_FOUND")
             {
-                int temp;
-                cin >> temp;
+                int temp; cin >> temp;
                 laddu += temp;
             }
 

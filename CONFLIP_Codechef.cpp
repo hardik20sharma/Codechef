@@ -1,12 +1,10 @@
-#include<iostream>
-#include<vector>
-#include<algorithm>
-#define tails true
-#define heads false
+#include<bits/stdc++.h>
 using namespace std;
 
 int main()
 {
+    ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+    
     int t;
     cin >> t;
     while(t--)
@@ -18,7 +16,7 @@ int main()
             int n, i, q;
             cin >> i >> n >> q;
 
-            if(n % 2==0)
+            if(n%2 == 0)
                 cout << n/2 << "\n";
             else
                 if(i == q)

@@ -3,14 +3,14 @@ using namespace std;
 
 int main()
 {
-    int t;
-    cin >> t;
+    ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+    int t; cin >> t;
     while(t--)
     {
         int n, max = -1;
         cin >> n;
 
-        double cnt=0, total_possibilities = (n*(n-1))/2;
+        double cnt = 0, total_possibilities = (n * (n-1)) / 2;
 
         vector<int> a(n);
         for(int i=0; i<n; i++)

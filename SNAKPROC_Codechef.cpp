@@ -19,6 +19,7 @@ bool func(int n, string str)
 
 int main()
 {
+    ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
     int t, n;
     cin >> t;
     while(t--)

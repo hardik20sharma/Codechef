@@ -14,7 +14,7 @@ int main()
 
         for(int i=0; i<size; i++)
             cin >> arr[i];
-
+        
         map <int, int> frequency;
         int right = 0, left = 0, result = 0, distinct_flavors = 0;
 
@@ -28,12 +28,12 @@ int main()
                 left++;
                 continue;
             }
-
+            
             frequency[ arr[right] ]++;
-
+            
             if( frequency[ arr[right] ] == 1)
                 distinct_flavors++;
-
+            
             right++;
             result = max(result, right-left);
         }

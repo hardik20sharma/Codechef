@@ -6,15 +6,14 @@ int main()
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int t, n;
-    cin >> t;
+    int t, n; cin >> t;
     while (t--)
     {
         cin >> n;
         int arr[n], count = 1;
 
         cin >> arr[0];
-        if(n==1)
+        if(n == 1)
         {
             cout << count << "\n";
             continue;

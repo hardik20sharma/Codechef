@@ -11,7 +11,7 @@ int main()
     {
         string s;
         cin >> s;
-        if(s=="CLICK")
+        if(s == "CLICK")
         {
             int n;
             cin >> n;

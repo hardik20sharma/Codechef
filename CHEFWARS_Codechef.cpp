@@ -4,14 +4,11 @@ using namespace std;
 int main()
 {
     ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
-
     int t, p, h;
-
     cin >> t;
     while(t--)
     {
         cin >> h >> p;
-        
         bool dead = false;
         while(p && h)
         {

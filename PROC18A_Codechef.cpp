@@ -9,7 +9,7 @@ int main()
     {
         cin >> n >> k;
         int a[n], maximum = -1;
-
+        
         cin >> a[0];
         for(int i=1; i<n; i++)
         {
@@ -19,7 +19,7 @@ int main()
 
         for(int i=k; i<n; i++)
             maximum = max(maximum, a[i] - a[i-k]);
-
+        
         cout << maximum << "\n";
     }
 }

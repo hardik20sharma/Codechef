@@ -3,6 +3,8 @@ using namespace std;
 
 int main()
 {
+    ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+    
     int t;
     cin >> t;
     while(t--)
@@ -17,11 +19,11 @@ int main()
         for(int i=0; i<n; i++)
         {
             int j=i+1, cnt=1, temp = i;
-            while(j<n && vec[j++]-vec[temp++] <=2)
+            while(j<n && vec[j++] - vec[temp++] <= 2)
                 cnt++;
 
             j=i-1, temp = i;
-            while(0 <= j && vec[temp--]-vec[j--] <=2)
+            while(0 <= j && vec[temp--] - vec[j--] <= 2)
                 cnt++;
 
             if(cnt < min)

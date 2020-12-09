@@ -12,6 +12,7 @@ short main()
         cin >> n >> k;
 
         vector<short> vec(n);
+
         for (short i = 1; i <= n; i++)
             cin >> vec[i];
 

@@ -15,7 +15,7 @@ int main()
         int s = d0 + d1;
         int c = (2*s) % 10 + (4*s) % 10 + (8*s) % 10 + (6*s) % 10;
 
-        ull num_cycles = (k-3)/4;
+        ull num_cycles = (k-3) / 4;
         ull total = 0
 
         if (k == 2)
